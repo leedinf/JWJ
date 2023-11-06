@@ -7,24 +7,24 @@ class ChatPage1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.black,
-        title: Text("채팅"),
-        actions: [
-          IconButton(
-              onPressed: (){},
-              icon: const Icon(Icons.search,color: Colors.white),
-          ),
-          IconButton(
-              onPressed: (){},
-              icon: const Icon(Icons.add_comment,color: Colors.white),
-          ),
-          IconButton(
-              onPressed: (){},
-              icon: const Icon(Icons.settings,color: Colors.white),
-          )
-        ],
-      ),
+      // appBar: AppBar(
+      //   backgroundColor: Colors.black,
+      //   title: Text("채팅"),
+      //   actions: [
+      //     IconButton(
+      //         onPressed: (){},
+      //         icon: const Icon(Icons.search,color: Colors.white),
+      //     ),
+      //     IconButton(
+      //         onPressed: (){},
+      //         icon: const Icon(Icons.add_comment,color: Colors.white),
+      //     ),
+      //     IconButton(
+      //         onPressed: (){},
+      //         icon: const Icon(Icons.settings,color: Colors.white),
+      //     )
+      //   ],
+      // ),
       body: ListView(
         children:[
           ChatBox(),

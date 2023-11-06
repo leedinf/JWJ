@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-//mport 'package:flutter_test_1/chat_page.dart';
 import 'package:flutter_test_1/friends/friends.dart';
 
 void main() {
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
         unselectedItemColor: Colors.grey,
       )),
       debugShowCheckedModeBanner: false,
-      home: Friends(),
+      home: Freinds(),
     );
   }
 }
