@@ -32,9 +32,26 @@ class ChatPage1 extends StatelessWidget {
           )
         ],
       ),
-      body: Column(
+      body: ListView(
         children:[
-          ChatBox()
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
         ]
       ),
     );
