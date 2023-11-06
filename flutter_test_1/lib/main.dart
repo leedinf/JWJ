@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_test_1/friends/friends.dart';
 import 'package:flutter_test_1/chat_page.dart';
 
 void main() {
@@ -11,7 +12,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ChatPage1()
+      theme: ThemeData(
+          bottomNavigationBarTheme: BottomNavigationBarThemeData(
+        backgroundColor: Colors.black,
+        selectedItemColor: Colors.yellow,
+        unselectedItemColor: Colors.grey,
+      )),
+      debugShowCheckedModeBanner: false,
+      home: Friends(),
     );
   }
 }
+
