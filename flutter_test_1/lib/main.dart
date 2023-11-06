@@ -25,9 +25,6 @@ class MyApp extends StatelessWidget {
 
 class MyWidgt extends StatelessWidget {
   const MyWidgt({super.key});
-
-  const MyWidget({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
