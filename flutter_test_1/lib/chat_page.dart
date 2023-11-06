@@ -11,28 +11,21 @@ class ChatPage1 extends StatelessWidget {
         backgroundColor: Colors.black,
         title: Text("채팅"),
         actions: [
-          ElevatedButton.icon(onPressed: () {
-            //Navigator
-          },
-              style: ButtonStyle(),
-              icon: Icon(Icons.search,color: Colors.black),
-              label: Text('')
+          IconButton(
+              onPressed: (){},
+              icon: const Icon(Icons.search,color: Colors.white),
           ),
-          ElevatedButton.icon(onPressed: () {
-
-          },
-              icon: Icon(Icons.add_comment_outlined),
-              label: Text('')
+          IconButton(
+              onPressed: (){},
+              icon: const Icon(Icons.add_comment,color: Colors.white),
           ),
-          ElevatedButton.icon(onPressed: () {
-
-          },
-              icon: Icon(Icons.settings),
-              label: Text('')
+          IconButton(
+              onPressed: (){},
+              icon: const Icon(Icons.settings,color: Colors.white),
           )
         ],
       ),
-      body: Column(
+      body: ListView(
         children:[
           ChatBox()
         ]
