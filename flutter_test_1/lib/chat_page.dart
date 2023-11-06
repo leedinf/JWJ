@@ -27,7 +27,24 @@ class ChatPage1 extends StatelessWidget {
       ),
       body: ListView(
         children:[
-          ChatBox()
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
+          ChatBox(),
         ]
       ),
     );
