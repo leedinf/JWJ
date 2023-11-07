@@ -14,20 +14,10 @@ class _FreindsState extends State<Freinds> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.black,
-        title: Text("친구"),
-        actions: [
-          _buildIcon(Icons.search),
-          _buildIcon(Icons.person_add),
-          _buildIcon(Icons.music_note),
-          _buildIcon(Icons.settings),
-        ],
-      ),
       body: Center(child: IndexedStack(index : selectedIdx,
       children: [
         FriendsBody(),
-        ChatPage1(),
+        ChatPage(),
       ],),),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIdx,
@@ -61,13 +51,6 @@ class _FreindsState extends State<Freinds> {
           });
         },
       ),
-    );
-  }
-
-  Widget _buildIcon(IconData iconData) {
-    return IconButton(
-      icon: Icon(iconData),
-      onPressed: () {},
     );
   }
 }

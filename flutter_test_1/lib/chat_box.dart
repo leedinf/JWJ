@@ -1,26 +1,13 @@
 import 'package:flutter/material.dart';
 
-class ChatBox extends StatelessWidget {
-  const ChatBox({super.key});
+class ChatBox {
+  final String name;
+  final String text;
+  final String imageUrl;
 
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      child: Row(
-        children: [
-          Container(
-            width: 100,
-            height: 100,
-            child: Text("사진"),
-          ),
-          Column(
-            children: [
-              Text('Username'),
-              Text('Lastchat')
-            ]
-          )
-        ],
-      ),
-    );
-  }
+  ChatBox({
+    required this.name,
+    required this.text,
+    required this.imageUrl,
+  });
 }
